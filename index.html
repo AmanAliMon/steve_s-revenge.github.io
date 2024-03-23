@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>game</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+ <div id="config">
+    <center>
+        <h1 style="font-size: 3.7em;color:white;">Steve's revenge</h1>
+        <br>
+        <h1>Choose Character</h1>
+        <br><br>
+        <div class="char">
+            <div>
+
+                <img src="n.webp" alt="" class="ss" onclick="init('n.webp')">
+                <h1>Isaac Newton</h1>
+            </div>
+            <div>
+
+                <img src="s.webp" alt="" class="ss" onclick="init('s.webp')">
+                <h1>Snow white</h1>
+            </div>
+        </div>
+    </center>
+ </div> 
+    <div id="game" hidden>
+        <div id="score">score : 0</div>
+        <div id="left"></div>
+        <div id="right"></div>
+        <div id="block"></div>
+        <div id="character"></div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
